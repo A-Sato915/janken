@@ -49,8 +49,9 @@ public class Main {
             return;
         }
 
+        com.createRandomHand();
         //testcode
-        System.out.println(user.getHand().getHandName());
+        System.out.println(com.getHand().getHandName());
 
     }
 }
