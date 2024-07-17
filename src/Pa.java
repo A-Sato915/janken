@@ -14,9 +14,9 @@ public class Pa implements Hand{
         if(hand instanceof Choki) {    //チョキ　vs pa（自分）
             return -1;
         } else if(hand instanceof Pa) {    //パー　vs gu
-            return 1;
+            return 0;
         } else {
-            return 0;    //パー　vs パー（自分）
+            return 1;    //パー　vs パー（自分）
         }
     }
 
